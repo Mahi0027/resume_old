@@ -56,7 +56,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #4D4F4F !important;
+  color: #4D4F4F;
   /* color: #212529; */
   text-align: left;
   background-color: #fff;
@@ -3470,7 +3470,7 @@ input[type="button"].btn-block {
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-bottom: 1.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -3514,7 +3514,7 @@ input[type="button"].btn-block {
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
+  line-height: 4;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
@@ -5418,8 +5418,7 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; 
-}
+  display: flex !important; }
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -6424,9 +6423,9 @@ button.bg-dark:focus {
 .mx-0 {
   margin-right: 0 !important; }
 
-.ftco-animate,
+.mb-0,
 .my-0 {
-  margin-bottom: 1rem !important; }
+  margin-bottom: 0 !important; }
 
 .ml-0,
 .mx-0 {
@@ -6754,7 +6753,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
+.nav,
 .mx-auto {
   margin-left: auto !important; }
 
@@ -8055,7 +8054,7 @@ h1, h2, h3, h4, h5,
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
     color: #000000;
-    padding-top: .7rem;
+    padding-top: 0.7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
       color: #4D4F4F !important; }
@@ -8067,8 +8066,8 @@ h1, h2, h3, h4, h5,
       padding-bottom: 20px;
       margin-right: 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 15px;
-    padding-top: 3rem;
+    font-size: 16px;
+    padding-top:2.2rem;
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
@@ -8113,7 +8112,7 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
         padding-right: 0;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
         padding-top: 0;
         color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
@@ -8227,7 +8226,7 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #4D4F4F;
-      padding-top: 1rem;
+      padding-top: .7rem;
       padding-bottom: 1rem;
       font-size: 24px; }
 
@@ -8262,7 +8261,7 @@ h1, h2, h3, h4, h5,
       opacity: 0;
       display: none; } }
 
-.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
+.owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
     opacity: .4; }
@@ -9709,13 +9708,14 @@ textarea.form-control {
      transform: scale(1.1);
    }
    .experience_21{
-    position: absolute;
-    margin-left: -42%;
+    position: relative;
+    /* margin-left: -42%; */
     margin-top: 5%;
-    width: 110%;
+    width: 80%;
     opacity: .75;
-    height: 100%;
+    height: 80%;
     transition: .8s;
+    /* border: solid 1px red; */
   }
 
   .hobbies {
