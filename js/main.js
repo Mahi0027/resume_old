@@ -85,7 +85,7 @@
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
-	    loop:true,
+	    loop:false,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
@@ -185,7 +185,7 @@
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						//console.log(num);
+						console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
