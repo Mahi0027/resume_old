@@ -8359,10 +8359,12 @@ h1, h2, h3, h4, h5,
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
           width: 50%;
-          position: relative; }
+          position: relative;
+        }
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
+              overflow: hidden;
               top: 0;
               left: 0;
               bottom: 0;
@@ -8372,7 +8374,8 @@ h1, h2, h3, h4, h5,
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               width: 100%;
-              position: absolute;
+              position: absolute; 
+              overflow-y:scroll;
               top: 0;
               left: 0;
               right: 0;
