@@ -1,0 +1,159 @@
+body
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	background: white;
+}
+.header
+{
+	width: 1000px;
+	height: 1460px;
+	margin: auto;
+	background: url(images/headerbg.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.logo
+{
+	width: 140px;
+	height: 120px;
+	margin-left: 450px;
+	margin-top: 60px; 
+	float: left;
+	border:solid 0px red;
+}
+.logo_title
+{
+	width: 360px;
+	height: 160px;
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-bottom: 600px; 
+	float: left;
+	border: solid 0px red;
+}
+.bluelayer
+{
+	width: 1000px;
+	height: 20px;
+	background: #2B3856;
+	margin: auto;
+}
+.half_header_trans
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+}
+.half_header_trans ul li
+{
+	display: inline-block;
+	width:180px;
+	margin-top: 40px;
+	margin-bottom: 300px;
+	font-size: 115%;
+	text-align: center;
+	margin-right: 0px;
+	color: white;
+	border-right: solid 2px white;
+	
+}
+.bluelayer1
+{
+	width: 1000px;
+	height: 240px;
+	background: #2B3856;
+	margin: auto;
+}
+.half_header_trans ul li:last-child
+{
+	border-right: none;
+}
+.row2
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: url(images/frameimg1.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.whiteline1
+{
+	width: 20%;
+	height: 0px;
+	margin-top: 15%;
+	margin-left: 18%;
+	border: solid 4px white;
+	float: left;
+}
+.whiteline2
+{
+	width: 20%;
+	height: 0px;
+	margin-top: 15%;	
+	border: solid 4px white;
+	float: left;
+}
+.whitebox
+{
+	width: 20%;
+	height: 40px;
+	margin-top:13%;
+	border: solid 8px white;
+	float: left;
+}
+.text
+{
+	width: 950px;
+	height: auto;
+	margin: auto;
+	color: #2C3539;	
+	padding-top: 0% 5% 0% 5%;
+	font-family: serif;
+	font-size: 200%;
+	text-align: center;
+
+}
+.row3
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: url(images/frameimg2.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.row4
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: url(images/frameimg3.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.row5
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: url(images/frameimg4.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.row6
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	background: url(images/frameimg5.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.line
+{
+	width: 900px;
+	height: 0px;
+	margin: auto;
+	border: solid 1px gray;
+}
+.clear
+{
+	clear: both;
+}
